@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="output" path="bin/default"/>
+	<classpathentry output="bin/main" kind="src" path="src">
+		<attributes>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry output="bin/test" kind="src" path="test">
+		<attributes>
+			<attribute name="gradle_scope" value="test"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/">
+		<accessrules>
+			<accessrule kind="accessible" pattern="com/sun/net/**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry sourcepath="D:/libs/gradle_user_home/caches/modules-2/files-2.1/org.jmock/jmock/2.5.1/aaab26bf50acae56c62fb029430abfbc7458f054/jmock-2.5.1-sources.jar" kind="lib" path="D:/libs/gradle_user_home/caches/modules-2/files-2.1/org.jmock/jmock/2.5.1/1dca0b1353964964a64cbcca379bf813933c046/jmock-2.5.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/D:/libs/gradle_user_home/caches/modules-2/files-2.1/org.jmock/jmock/2.5.1/dec1e2271f28f43c90f06c29c493da07bf96f4aa/jmock-2.5.1-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="D:/libs/gradle_user_home/caches/modules-2/files-2.1/junit/junit/3.8.2/aaa058540bf14ad600dd784de979c46c721ccbbe/junit-3.8.2-sources.jar" kind="lib" path="D:/libs/gradle_user_home/caches/modules-2/files-2.1/junit/junit/3.8.2/7e4cde26b53a9a0e3fe5b00d1dbbc7cc1d46060/junit-3.8.2.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/D:/libs/gradle_user_home/caches/modules-2/files-2.1/junit/junit/3.8.2/c4757f577c76e7248e14858c76e4ce0ca1c78d89/junit-3.8.2-javadoc.jar!/"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="D:/libs/gradle_user_home/caches/modules-2/files-2.1/org.hamcrest/hamcrest-library/1.1/9c341c567414af8d005bac95815248281510fa63/hamcrest-library-1.1-sources.jar" kind="lib" path="D:/libs/gradle_user_home/caches/modules-2/files-2.1/org.hamcrest/hamcrest-library/1.1/b988c01468e3398d46678a2eb48aeb5bde271e9f/hamcrest-library-1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="D:/libs/gradle_user_home/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.1/2ccf1154d1a8936042a8a742dc3e611d02ac7213/hamcrest-core-1.1-sources.jar" kind="lib" path="D:/libs/gradle_user_home/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.1/860340562250678d1a344907ac75754e259cdb14/hamcrest-core-1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+</classpath>
